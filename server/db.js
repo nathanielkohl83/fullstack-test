@@ -7,5 +7,6 @@ module.exports = knex({
     user: "docker",
     password: "123456",
     database: "docker",
+    port: "4321",
   },
 });
