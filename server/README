@@ -1,0 +1,10 @@
+This demo starts an express server and a postgresql server and database
+each on its own docker container.
+
+App can be started by issuing following command:
+
+docker-compose up --build -d
+
+Stop app and remove existing containers with
+
+docker-compose down
